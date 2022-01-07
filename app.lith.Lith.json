@@ -28,7 +28,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/LithApp/Lith",
-                    "tag": "1.2.18"
+                    "tag": "1.2.22"
                 }
             ]
         }
