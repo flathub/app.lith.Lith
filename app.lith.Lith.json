@@ -21,14 +21,11 @@
         {
             "name": "Lith",
             "buildsystem": "cmake",
-            "config-opts": [
-                "-DVERSION=1.3.42"
-            ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/LithApp/Lith",
-                    "tag": "1.3.45"
+                    "tag": "1.4.6"
                 }
             ]
         }
