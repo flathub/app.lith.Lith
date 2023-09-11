@@ -15,17 +15,94 @@
         "--talk-name=com.canonical.indicator.application",
         "--talk-name=org.ayatana.indicator.application",
         "--talk-name=org.freedesktop.portal.Fcitx",
-        "--own-name=org.kde.*"
+        "--own-name=org.kde.*",
+        "--talk-name=org.freedesktop.secrets"
+    ],
+    "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/lib/cmake",
+        "/lib/debug/source",
+        "/mkspecs",
+        "*.la",
+        "*.a"
     ],
     "modules": [
         {
+            "name": "qcoro",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DCMAKE_CXX_FLAGS=-fPIC"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/danvratil/qcoro",
+                    "tag": "v0.9.0",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "libsecret",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Dvapi=false",
+                "-Dgtk_doc=false",
+                "-Dbash_completion=disabled",
+                "-Dmanpage=false",
+                "-Dintrospection=false",
+                "-Dgcrypt=false"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/GNOME/libsecret",
+                    "tag": "0.21.0",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d.]+)$"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "qtkeychain",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_WITH_QT6=ON",
+                "-DUSE_CREDENTIAL_STORE=ON",
+                "-DBUILD_SHARED_LIBS=OFF",
+                "-DBUILD_TRANSLATIONS=OFF",
+                "-DCMAKE_CXX_FLAGS=-fPIC"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/frankosterfeld/qtkeychain",
+                    "tag": "0.14.1",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d.]+)$"
+                    }
+                }
+            ]
+        },
+        {
             "name": "Lith",
-            "buildsystem": "cmake",
+            "buildsystem": "cmake-ninja",
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/LithApp/Lith",
-                    "tag": "1.4.6"
+                    "tag": "1.4.24",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d.]+)$"
+                    }
                 }
             ]
         }
