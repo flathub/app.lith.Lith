@@ -15,7 +15,6 @@
         "--talk-name=com.canonical.indicator.application",
         "--talk-name=org.ayatana.indicator.application",
         "--talk-name=org.freedesktop.portal.Fcitx",
-        "--own-name=org.kde.*",
         "--talk-name=org.freedesktop.secrets"
     ],
     "cleanup": [
