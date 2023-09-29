@@ -61,8 +61,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/GNOME/libsecret",
-                    "tag": "0.21.0",
-                    "commit": "6678c87fed2dbe0b0e13cbd0ebaa3f47fd409817",
+                    "tag": "0.21.1",
+                    "commit": "79722e8c670a0a9582d64b370831848f6d060e39",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
@@ -100,8 +100,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/LithApp/Lith",
-                    "tag": "1.4.24",
-                    "commit": "03ba3abe7440b038bb4fab24262a4349197dc117",
+                    "tag": "1.4.31",
+                    "commit": "c43a413f495318fb95649ee396a1e84ddf45a5d9",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "git",
