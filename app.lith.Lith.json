@@ -100,8 +100,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/LithApp/Lith",
-                    "tag": "1.4.31",
-                    "commit": "c43a413f495318fb95649ee396a1e84ddf45a5d9",
+                    "tag": "1.4.32",
+                    "commit": "ffa9205f70eda41ab1b3c78a9da963181c3bec79",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "git",
