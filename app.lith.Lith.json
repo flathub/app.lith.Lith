@@ -1,7 +1,7 @@
 {
     "id": "app.lith.Lith",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.5",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "Lith",
     "finish-args": [
@@ -100,12 +100,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/LithApp/Lith",
-                    "tag": "1.4.45",
-                    "commit": "fd006643e8dbdb64df7e02464308bdf9a7942df5",
+                    "tag": "v1.6.0",
+                    "commit": "538de8185d2ef0f3d30baee97e05f273b2689e94",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "git",
-                        "tag-pattern": "^([\\d.]+)$"
+                        "tag-pattern": "^v([\\d]+[.][\\d.]*[02468][.][\\d]+)$"
                     }
                 }
             ]
