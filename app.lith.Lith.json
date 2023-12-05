@@ -37,8 +37,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/danvratil/qcoro",
-                    "tag": "v0.9.0",
-                    "commit": "e66e8882acdea951cd379045167fc9be30564942",
+                    "tag": "v0.10.0",
+                    "commit": "fa5bc4296a252ad71c85209b60675bb025024a1e",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
