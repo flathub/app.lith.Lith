@@ -37,8 +37,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/danvratil/qcoro",
-                    "tag": "v0.9.0",
-                    "commit": "e66e8882acdea951cd379045167fc9be30564942",
+                    "tag": "v0.10.0",
+                    "commit": "fa5bc4296a252ad71c85209b60675bb025024a1e",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -61,8 +61,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/GNOME/libsecret",
-                    "tag": "0.21.1",
-                    "commit": "79722e8c670a0a9582d64b370831848f6d060e39",
+                    "tag": "0.21.2",
+                    "commit": "39a3d141691af7353df9bb5bdd81d66c1cd0fb37",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
