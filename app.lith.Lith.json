@@ -36,8 +36,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/danvratil/qcoro",
-                    "tag": "v0.9.0",
-                    "commit": "e66e8882acdea951cd379045167fc9be30564942",
+                    "tag": "v0.10.0",
+                    "commit": "fa5bc4296a252ad71c85209b60675bb025024a1e",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -53,15 +53,14 @@
                 "-Dgtk_doc=false",
                 "-Dbash_completion=disabled",
                 "-Dmanpage=false",
-                "-Dintrospection=false",
-                "-Dgcrypt=false"
+                "-Dintrospection=false"
             ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/GNOME/libsecret",
-                    "tag": "0.21.1",
-                    "commit": "79722e8c670a0a9582d64b370831848f6d060e39",
+                    "tag": "0.21.4",
+                    "commit": "6b5a6c28afc6dd93c232a4907a87c881079ff91b",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
@@ -83,8 +82,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/frankosterfeld/qtkeychain",
-                    "tag": "0.14.1",
-                    "commit": "69f993c47efed7e557d79a30a367014d9a27d809",
+                    "tag": "0.14.3",
+                    "commit": "38ff50766c7e4ec490fecb2d9939b7cdc4b74b8e",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
@@ -99,8 +98,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/LithApp/Lith",
-                    "tag": "v1.6.0",
-                    "commit": "538de8185d2ef0f3d30baee97e05f273b2689e94",
+                    "tag": "v1.6.3",
+                    "commit": "93c83bdb53a98a28c67b65bc290552eeb12a1385",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "git",
