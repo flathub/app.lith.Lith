@@ -36,8 +36,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/danvratil/qcoro",
-                    "tag": "v0.9.0",
-                    "commit": "e66e8882acdea951cd379045167fc9be30564942",
+                    "tag": "v0.10.0",
+                    "commit": "fa5bc4296a252ad71c85209b60675bb025024a1e",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -60,8 +60,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/GNOME/libsecret",
-                    "tag": "0.21.1",
-                    "commit": "79722e8c670a0a9582d64b370831848f6d060e39",
+                    "tag": "0.21.4",
+                    "commit": "6b5a6c28afc6dd93c232a4907a87c881079ff91b",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
@@ -83,8 +83,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/frankosterfeld/qtkeychain",
-                    "tag": "0.14.1",
-                    "commit": "69f993c47efed7e557d79a30a367014d9a27d809",
+                    "tag": "0.14.2",
+                    "commit": "8eac9889775ca45c106d077bb0d3744754a1570a",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
@@ -99,8 +99,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/LithApp/Lith",
-                    "tag": "v1.6.0",
-                    "commit": "538de8185d2ef0f3d30baee97e05f273b2689e94",
+                    "tag": "v1.6.2",
+                    "commit": "a1e33a8124c96d891c23a1261c68f891ea4d9eef",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "git",
