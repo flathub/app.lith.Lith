@@ -36,8 +36,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/danvratil/qcoro",
-                    "tag": "v0.10.0",
-                    "commit": "fa5bc4296a252ad71c85209b60675bb025024a1e",
+                    "tag": "v0.11.0",
+                    "commit": "3a6efdbe6a2a4b7fef9093b564a14ad1e046e9a4",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -98,8 +98,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/LithApp/Lith",
-                    "tag": "v1.6.3",
-                    "commit": "93c83bdb53a98a28c67b65bc290552eeb12a1385",
+                    "tag": "v1.7.25",
+                    "commit": "b95e12ca2fffb989c62b77d2263c874458467bfa",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "git",
