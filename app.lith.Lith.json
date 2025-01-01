@@ -98,7 +98,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/LithApp/Lith",
-                    "tag": "v1.6.5",
+                    "tag": "v1.6.6",
                     "commit": "feb64d6d1e112889ca4e78fb5b5b859d001d72a8",
                     "x-checker-data": {
                         "is-main-source": true,
