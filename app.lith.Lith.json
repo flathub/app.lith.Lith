@@ -59,8 +59,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/GNOME/libsecret",
-                    "tag": "0.21.4",
-                    "commit": "6b5a6c28afc6dd93c232a4907a87c881079ff91b",
+                    "tag": "0.21.5",
+                    "commit": "c9b3e4e98b3e0a271275e05b1cd9587864612062",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
