@@ -1,7 +1,7 @@
 {
     "id": "app.lith.Lith",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.6",
+    "runtime-version": "6.8",
     "sdk": "org.kde.Sdk",
     "command": "Lith",
     "finish-args": [
@@ -59,8 +59,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/GNOME/libsecret",
-                    "tag": "0.21.4",
-                    "commit": "6b5a6c28afc6dd93c232a4907a87c881079ff91b",
+                    "tag": "0.21.6",
+                    "commit": "e59012225c2857d53738574423416b541f11a131",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
@@ -82,8 +82,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/frankosterfeld/qtkeychain",
-                    "tag": "0.14.3",
-                    "commit": "38ff50766c7e4ec490fecb2d9939b7cdc4b74b8e",
+                    "tag": "0.15.0",
+                    "commit": "ad7344c45a86a4f66cbafc4b081b5f7b876cb0b7",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
