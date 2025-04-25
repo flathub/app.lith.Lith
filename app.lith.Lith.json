@@ -1,7 +1,7 @@
 {
     "id": "app.lith.Lith",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.8",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "Lith",
     "finish-args": [
@@ -36,8 +36,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/danvratil/qcoro",
-                    "tag": "v0.11.0",
-                    "commit": "3a6efdbe6a2a4b7fef9093b564a14ad1e046e9a4",
+                    "tag": "v0.12.0",
+                    "commit": "ef1231ae490465b4f592ca326eee6d56a3d802ae",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -59,8 +59,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/GNOME/libsecret",
-                    "tag": "0.21.6",
-                    "commit": "e59012225c2857d53738574423416b541f11a131",
+                    "tag": "0.21.7",
+                    "commit": "0936f740c02b60f02657729cd99f581db4517a41",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
@@ -98,7 +98,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/LithApp/Lith",
-                    "tag": "v1.6.6",
+                    "tag": "v1.6.7",
                     "commit": "feb64d6d1e112889ca4e78fb5b5b859d001d72a8",
                     "x-checker-data": {
                         "is-main-source": true,
