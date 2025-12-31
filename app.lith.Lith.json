@@ -20,7 +20,6 @@
         "/include",
         "/lib/pkgconfig",
         "/lib/cmake",
-        "/lib/debug/source",
         "/mkspecs",
         "*.la",
         "*.a"
