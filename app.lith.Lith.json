@@ -45,29 +45,6 @@
             ]
         },
         {
-            "name": "libsecret",
-            "buildsystem": "meson",
-            "config-opts": [
-                "-Dvapi=false",
-                "-Dgtk_doc=false",
-                "-Dbash_completion=disabled",
-                "-Dmanpage=false",
-                "-Dintrospection=false"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/GNOME/libsecret",
-                    "tag": "0.21.7",
-                    "commit": "0936f740c02b60f02657729cd99f581db4517a41",
-                    "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^([\\d.]+)$"
-                    }
-                }
-            ]
-        },
-        {
             "name": "qtkeychain",
             "buildsystem": "cmake-ninja",
             "config-opts": [
